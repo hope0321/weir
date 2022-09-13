@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find hector_slam_launch)/launch/tutorial.launch" />
+	<!--<node pkg='tf' type='static_transform_publisher' name='odom2base' args='0 0 0 0 0 0 odom base_link 50'/>-->
+</launch>
